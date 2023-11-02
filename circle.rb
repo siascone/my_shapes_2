@@ -10,4 +10,8 @@ class Circle
         Math::Pi * @radius ** 2
     end
 
+    def position
+        return [@x_pos, @y_pos]
+    end
+
 end
