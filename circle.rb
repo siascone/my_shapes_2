@@ -1,5 +1,5 @@
 class Circle
-
+    attr_reader :radius
     def initialize(radius, x_pos, y_pos)
         @radius = radius
         @x_pos = x_pos
